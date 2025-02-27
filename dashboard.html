@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | Ebus Management</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to your Dashboard</h1>
+      <nav>
+        <a href="Home.html">Home</a>
+        <a href="Home.html">Logout</a>
+      </nav>
+    </header>
+
+    <div id="bus-info">
+      <h2>Bus Information</h2>
+      <form id="bus-location-form">
+        <input type="text" id="source" placeholder="Source" required />
+        <input
+          type="text"
+          id="destination"
+          placeholder="Destination"
+          required
+        />
+        <button type="submit">Search Bus Location</button>
+      </form>
+      <div id="location-results"></div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="scripts/dashboard.js"></script>
+  </body>
+</html>

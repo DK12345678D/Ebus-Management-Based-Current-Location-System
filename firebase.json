@@ -1,0 +1,26 @@
+{
+    "buses": {
+      "bus1": {
+        "type": "Double Decker",
+        "source": "A",
+        "destination": "B",
+        "arrivalTime": "10:30 AM",
+        "contact": "123-456-789"
+      },
+      "bus2": {
+        "type": "Single Deck",
+        "source": "B",
+        "destination": "C",
+        "arrivalTime": "11:00 AM",
+        "contact": "987-654-321"
+      }
+    },
+    "users": {
+      "userId1": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@example.com"
+      }
+    }
+  }
+  
